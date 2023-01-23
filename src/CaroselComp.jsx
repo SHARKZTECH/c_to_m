@@ -1,14 +1,17 @@
 import React from 'react'
+import IMG from "./assets/b.jpeg"
+import { Carousel } from 'react-bootstrap'
 
 const CaroselComp = () => {
   return (
     <div>
-            <Carousel fade>
+      <Carousel fade variant='dark'>
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=First slide&bg=373940"
+          className="d-block w-100 c-img"
+          src={IMG}
           alt="First slide"
+        
         />
         <Carousel.Caption>
           <h3>First slide label</h3>
@@ -17,8 +20,8 @@ const CaroselComp = () => {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Second slide&bg=282c34"
+          className="d-block w-100 c-img"
+          src={IMG}
           alt="Second slide"
         />
 
@@ -29,8 +32,8 @@ const CaroselComp = () => {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=20232a"
+          className="d-block w-100 c-img"
+          src={IMG}
           alt="Third slide"
         />
 

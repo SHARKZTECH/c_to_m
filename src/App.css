@@ -18,3 +18,24 @@
   rotate: 0deg;
 }
 
+.c-img{
+  height: 450px; 
+  
+}
+
+.contain h3{
+  color: aqua; 
+  background-color: #5d55a3;
+  width: 5rem;
+  border-radius: 5rem;
+  padding: 1.5rem; 
+  margin-left: 2.5rem;
+}
+.contain h5{
+  color: #8178ca;
+}
+.contain p{
+  color: rgb(198, 203, 207);
+}
+
+
