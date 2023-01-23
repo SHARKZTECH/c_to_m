@@ -10,7 +10,7 @@ const BuyComp = () => {
   }
 
   return (
-    <Container className="mt-4">
+    <Container className="mt-4 pb-3">
       <Row>
         <Col md={6}>
           <div className="d-flex align-items-center mb-2">

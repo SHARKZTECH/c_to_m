@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
-import { BrowserRouter as Router,Routes,Route } from 'react-router-dom'
+import { HashRouter as Router,Routes,Route } from 'react-router-dom'
 import { Alert } from 'react-bootstrap'
 import NavBarComp from './NavBarComp'
 import HomeComp from "./HomeComp"
