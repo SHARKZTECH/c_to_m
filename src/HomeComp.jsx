@@ -17,9 +17,17 @@ const HomeComp = () => {
           {/* <Image src={IMG} alt="b" width={'500px'}/> */}
           <CaroselComp/>
         </Col>
-        <Col md={6} sm={12} className="">
+        <Col md={6} sm={12} className="mt-2">
         <div>
           <h4>C_TO_M </h4>
+          <p>Have you ever have extra airtime and wonder what 
+            to do or purchase excessive airtime that cannot be 
+            refunded or win airtime from your favorite show ?</p>
+            <p>C_TO_M will enable you to convert our airtime to
+              to Mpesa at <span>30%</span> cost.For every 100 you 
+              will receive 70/= to your Mpesa.Click on Sell and 
+              Complete your request.
+            </p>
           <p>Sell Our Extra Artime Within minutes.Buy Artime
             at Dicount Within Minute.C_TO_M enable it's users
             to sell their extra Airtime through our site and 
@@ -153,7 +161,7 @@ const HomeComp = () => {
 
           <Card  className="mb-2">
             <Card.Header>
-               How to Buy/Sell Artime using C_to_M on Android ? 
+               Can I be able Buy/Sell Airtel and Telcom Airtime ? 
                <span 
                onClick={()=>setShowRes2(true)}
                className={showRes2 ? 'hide' : 'icon'}><FcExpand/></span>
@@ -162,8 +170,7 @@ const HomeComp = () => {
                className={showRes2 ? 'icon' : 'hide'}><FcCollapse/></span>
             </Card.Header>
             <Card.Body className={showRes2 ? 'show' : 'hide'}>
-                You can Download C_to_M Android App /
-                 Visit Our site on your phone's browser
+                At the moment no. In near future maybe.
             </Card.Body>
           </Card>
 
