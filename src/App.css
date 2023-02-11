@@ -22,13 +22,31 @@
   
 }
 
+
+.contain{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+@media only screen and (max-width: 600px){
+  .contain{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+  }
+  .contain p{
+    margin-left: 2rem;
+  }
+}
 .contain h3{
   color: aqua; 
   background-color: #5d55a3;
   width: 5rem;
   border-radius: 5rem;
   padding: 1.5rem; 
-  margin-left: 2.5rem;
+  /* margin-left: 2.5rem; */
 }
 .contain h5{
   color: #8178ca;

@@ -72,7 +72,7 @@ const BuyComp = () => {
           </div>
         </Col>
         <Col>
-           <div className='img'>
+           <div className='img d-none d-md-block'>
               <img src={IMG} alt='c_2_m'/>
             </div>        
         </Col>

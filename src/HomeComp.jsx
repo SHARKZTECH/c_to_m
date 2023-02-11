@@ -48,15 +48,19 @@ const HomeComp = () => {
               <Row>
                 <Col>
                 <div className='contain'>
+                  <div>
                   <h3>1</h3>
                   <h5>Firtst</h5>
+                  </div>
                   <p>Click Buy </p>
                 </div>
                 </Col>
                 <Col>
                 <div className='contain'>
-                  <h3>2</h3>
-                  <h5>Second</h5>
+                <div>
+                <h3>2</h3>
+                <h5>Second</h5>
+                </div>
                   <p>Selecte the Amount of Artime
                     you wish to purchase
                   </p>
@@ -64,8 +68,10 @@ const HomeComp = () => {
                 </Col>
                 <Col>
                 <div className='contain'>
+                  <div>
                   <h3>3</h3>
                   <h5>Third</h5>
+                  </div>
                   <p>Click Buy "Button" with the
                     amount you wish to buy and Enter your
                     Mpesa PIN to complete your purchase
@@ -83,15 +89,19 @@ const HomeComp = () => {
               <Row>
                 <Col>
                 <div className='contain'>
+                  <div>
                   <h3>1</h3>
                   <h5>Firtst</h5>
+                  </div>
                   <p>Click Sell</p>
                 </div>
                 </Col>
                 <Col>
                 <div className='contain'>
+                  <div>
                   <h3>2</h3>
                   <h5>Second</h5>
+                  </div>
                   <p>Enter the Amount of Artime
                       you wish to sell   
                   </p>
@@ -99,8 +109,10 @@ const HomeComp = () => {
                 </Col>
                 <Col>
                 <div className='contain'>
+                  <div>
                   <h3>3</h3>
                   <h5>Third</h5>
+                  </div>
                   <p>Enter the Mpsesa No to receive 
                     payment and Click Sell "Button" 
                   </p>
