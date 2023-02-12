@@ -1,18 +1,23 @@
 import React, { useState } from 'react'
 import { Container,Row,Col, Button, Form } from 'react-bootstrap'
 import IMG from "./assets/mobile.png";
+import BuyModal from './BuyModal';
 
 const BuyComp = () => {
   const [amount,setAmount]=useState(0);
+  const [isShow,setShow]=useState(false);
+
 
   const handleClick=(a)=>{
-    alert(a);
+    setAmount(a)
+    setShow(true)
   }
 
   return (
     <Container className="mt-4 pb-3">
       <Row>
         <Col md={6}>
+          <BuyModal isShow={isShow} setShow={setShow} amount={amount}/>
           <div className="d-flex align-items-center mb-2">
           <p 
           style={{width:"70%"}}>Buy 10 artime at 10% discount  and get 11</p>
