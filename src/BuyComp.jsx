@@ -3,6 +3,7 @@ import { Container,Row,Col, Button, Form } from 'react-bootstrap'
 import IMG from "./assets/mobile.png";
 import BuyModal from './BuyModal';
 
+
 const BuyComp = () => {
   const [amount,setAmount]=useState(0);
   const [isShow,setShow]=useState(false);

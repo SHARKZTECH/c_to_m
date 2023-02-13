@@ -34,7 +34,8 @@ const BuyModal = ({isShow,setShow,amount}) => {
             </Form.Group>
         </Modal.Body>
         <Modal.Footer>
-            <Button onClick={handleComplete}>Complete</Button>
+            <Button onClick={()=>setShow(false)} variant='danger'>Cancel</Button>
+            <Button onClick={handleComplete} variant="success">Complete</Button>
         </Modal.Footer>
     </Modal>
     </>

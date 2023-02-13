@@ -3,6 +3,8 @@ import { useState } from 'react'
 import { Container, Row,Col,Form ,Button} from 'react-bootstrap'
 import SellModal from './SellModal';
 
+
+
 const SellComp = () => {
   const [amount,setAmount]=useState(0);
   const [numberSend,setNumberSend]=useState(0);
@@ -35,6 +37,7 @@ const SellComp = () => {
               onChange={(e)=>setNumberSend(e.target.value)}
                type='number' placeholder='eg:0707254XXX'></Form.Control>
             </Form.Group>
+
 
             <Form.Group className='mb-2'>
               <Form.Label>Enter Mpesa Number to Receive Payment</Form.Label>
