@@ -65,7 +65,10 @@ const BuyComp = () => {
              <div className="d-flex align-items-center justify-content-center mb-2 gap-3 ">
              <Form.Group
              style={{width:"60%"}}>
-                <Form.Control type="number" placeholder="0.0" onChange={(e)=>setAmount(e.target.value)}/>
+                <Form.Control
+                 type="number" placeholder="0.0" 
+                 value={amount}
+                 onChange={(e)=>setAmount(e.target.value)}/>
              </Form.Group>
             <Button
             onClick={()=>handleClick(amount)}
