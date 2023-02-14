@@ -5,9 +5,21 @@ const BuyModal = ({isShow,setShow,amount}) => {
     const [number,setNumber]=useState(0);
     const [number1,setNumber1]=useState(0);
     
-    const handleComplete=()=>{
+    const handleComplete=async()=>{
          setShow(false);
          alert(number+" will recive "+amount+" worth of artime shotly! \n Enter Your PiN to the mobile containing "+number1+" to complete your process.Thank u 4 purchasing with us");
+         const res=await fetch("http://localhost:8000/api/mpesa", {
+            method: 'POST',
+            headers: {
+              'Accept': 'application/json',
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({amount,number})
+        }
+        );
+        const results=await res.json();
+        console.log(results)          
+  
          setNumber(0);
          setNumber1(0);
     }
